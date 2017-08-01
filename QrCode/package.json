@@ -1,0 +1,11 @@
+{
+  "name": "QrCode",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node generateCode.js"
+  },
+  "dependencies": {
+    "qrcode":"^0.8.2",
+    "qrcode-terminal":"^0.11.0"
+  }
+}

@@ -1,0 +1,22 @@
+extends layout.jade
+
+block body
+    form(action="/mongo/signup",method="post")
+        fieldset
+        legend Sign up
+        p
+            label First
+            input(name="user[first]",type="text")
+        p
+            label Last
+            input(name="user[last]",type="text")
+        p
+            label email
+            input(name="user[email]",type="text")
+        p
+            label Last
+            input(name="user[passwd]",type="password")
+        p
+            button submit
+        p
+            a(href="/mongo") go back

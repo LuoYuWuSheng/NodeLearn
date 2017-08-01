@@ -1,0 +1,17 @@
+extends layout.jade
+
+block body
+    form(action="/mongo/login",method="post")
+        fieldset
+            legend log in
+
+            p
+                label Email
+                input(name="user[email]",type="text")
+            p
+                label passwd
+                input(name="user[passwd]",type="passwd")
+            p
+                button submit
+            p
+                a(href="/mongo/") go back
