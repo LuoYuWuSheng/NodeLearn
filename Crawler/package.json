@@ -1,0 +1,14 @@
+{
+  "name": "Crawler",
+  "version": "0.0.1",
+  "private": true,
+
+  "scripts": {
+    "start": "node Crawler.js"
+  },
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "html-entities": "1.2.0",
+    "request": "2.79.0"
+  }
+}
