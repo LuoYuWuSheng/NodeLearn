@@ -229,3 +229,8 @@ jspm_packages
 ### MyDefine  这个忽略没有生效，不知道为什么 ###
  /.idea/
 Connector/node_modules/
+Crawler/node_modules/
+Crawler/data/
+Express/node_modules/
+QrCode/node_modules/
+StatusChecker/node_modules/
